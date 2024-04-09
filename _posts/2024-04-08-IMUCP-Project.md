@@ -21,11 +21,11 @@ The modifications involve:
 
 Implemented a tool for effective data gathering using Google Distances API
 
-- Developed a simple data gathering tool using Google Distances API
+The development involves:
 
-- Durations of travel and routes can be tested and gathered. 
+- Integrating a simple data gathering tool using Google Distances API
 
-- Can be easily modified to gather different information that API supports
+- Gathering durations of travel and routes from different locations 
 
 [The baseline code can be viewed here](https://github.com/woom221/google-directions-api/tree/main){:target="_blank"}
 
