@@ -17,7 +17,7 @@ The modifications involve:
 
 - Modifying MATSim source code to improve efficiency
 
-[Current working in progress codes can be viwed here](https://github.com/woom221/matsim-pune-india){:target="_blank"}
+[Current working in progress codes can be viewed here](https://github.com/woom221/matsim-pune-india){:target="_blank"}
 
 Implemented a tool for effective data gathering using Google Distances API
 
