@@ -32,7 +32,7 @@ About me
 
 I am a recent graduate from the University of Toronto with a specialization in Computer Science and a major in Statistics. I am seeking opportunities in Software Engineering or Data Science, where I can apply my passion for transforming complex systems and architectures into actionable, interpretable insights.
 
-I enjoy working on projects that involve problem-solving, data-driven decision-making, and creating intuitive solutions that make advanced concepts accessible to others. I enjoy working on projects that involve problem-solving, data-driven decision-making, and creating intuitive solutions that make advanced concepts accessible to others. If I can make even a small improvement to the world through development and analysis, I will always feel accomplished.
+I enjoy working on projects that involve problem-solving, data-driven decision-making, and creating intuitive solutions that make advanced concepts accessible to others. If I can make even a small improvement to the world through development and analysis, I will always feel accomplished.
 
 
 ## service
