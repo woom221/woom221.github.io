@@ -82,20 +82,34 @@ for (let i = 0; i < filterBtn.length; i++) {
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
 
+// Function to set the active page based on localStorage
+const setActivePage = function (pageName) {
+  for (let i = 0; i < pages.length; i++) {
+    if (pages[i].dataset.page === pageName) {
+      pages[i].classList.add("active");
+      navigationLinks[i].classList.add("active");
+    } else {
+      pages[i].classList.remove("active");
+      navigationLinks[i].classList.remove("active");
+    }
+  }
+}
+
+// Load the active page from localStorage when the page loads
+const savedPage = localStorage.getItem("activePage");
+if (savedPage) {
+  setActivePage(savedPage);
+} else {
+  // Default to the first page if no page is saved
+  setActivePage(pages[0].dataset.page);
+}
+
 // add event to all nav link
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
-
-    for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-        pages[i].classList.add("active");
-        navigationLinks[i].classList.add("active");
-        window.scrollTo(0, 0);
-      } else {
-        pages[i].classList.remove("active");
-        navigationLinks[i].classList.remove("active");
-      }
-    }
-
+    const pageName = this.innerHTML.toLowerCase();
+    setActivePage(pageName);
+    localStorage.setItem("activePage", pageName); // Save the active page to localStorage
+    window.scrollTo(0, 0);
   });
 }
