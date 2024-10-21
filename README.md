@@ -1,6 +1,6 @@
 # Portfolio for Sean Yi
 
-The template is from https://github.com/codewithsadee/vcard-personal-portfolio
+Portfolio made on Oct 21, 2024
 
-This portfolio is currently under construction
+The template is from https://github.com/codewithsadee/vcard-personal-portfolio
 
